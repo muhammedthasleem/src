@@ -7,6 +7,7 @@ import Incri from "./components/Incri"
 import Arraystate from"./components/Arraystate"
 import Fetch from "./components/Fetch"
 import "./global.css"
+import FirstPage from "./components/FirstPage"
 
 const App =()=>{
     // return (
@@ -18,17 +19,19 @@ const App =()=>{
             <Hello/> 
              */}
 
-let person={ name:"ABC",id:458,skills:["html","css","js"],address:{pincode:546445,place:"banglore"}}
+// let person={ name:"ABC",id:458,skills:["html","css","js"],address:{pincode:546445,place:"banglore"}}
     //     </div>
     // )
     return(
         <div>
-            <Propsarray webtech={person}/>
+            <Nav/>
+            <FirstPage/>
+            {/* <Propsarray webtech={person}/>
             <Classbased/>
             <State/>
             <Incri/>
             <Arraystate/>
-            <Fetch/>
+            <Fetch/> */}
         </div>
     )
 }
