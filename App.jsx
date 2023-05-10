@@ -8,6 +8,11 @@ import Arraystate from"./components/Arraystate"
 import Fetch from "./components/Fetch"
 import "./global.css"
 import FirstPage from "./components/FirstPage"
+import Refer from "./components/Refer"
+import Form from "./components/Form"
+import Calc from"./components/Calc"
+import Controlled from "./components/Controlled"
+import Calcuc from "./components/Calcuc"
 
 const App =()=>{
     // return (
@@ -26,6 +31,11 @@ const App =()=>{
         <div>
             <Nav/>
             <FirstPage/>
+            <Refer/>
+            <Controlled/>
+            <Calcuc/>
+            {/* <Form/>
+            <Calc/> */}
             {/* <Propsarray webtech={person}/>
             <Classbased/>
             <State/>

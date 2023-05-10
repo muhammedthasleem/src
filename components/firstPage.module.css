@@ -1,5 +1,11 @@
 #firstPage{
-    background-color: cornflowerblue;
-    height: 70vh;
+    background-color: rgb(91, 105, 237);
+    height: 80vh;
     width: 100%;
+    display: flex;
+}
+#firstPaged>div>video{
+  
+   
+    
 }
